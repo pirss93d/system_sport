@@ -347,12 +347,17 @@ template {
 [hidden] {
  display: none;
 }
+/*Шрифты*/
+
 
 @font-face {
     font-family: "Lobster";
     src: url('/fonds/Lobster-Regular.ttf');
 }
 
+
+
+/*Шрифты*/
 .main{
     margin: 0   auto;
     width: 1440px;
@@ -360,6 +365,7 @@ template {
 }
 .main_registr-card{
     display: flex;
+    flex-wrap: wrap;
     margin: 0   auto;
     width: 440px;
     height: 667px;
@@ -368,6 +374,14 @@ template {
 }
 .registr_text{
     margin: 75px 125px;
+    max-width: 193px;
+    max-height: 51px;
     font-family: 'Lobster';
     font-size: 32px;
+}
+.registr_text-entrance{
+font-family: 'Lobster';
+font-size: 32px;
+   max-width: 68px;
+    max-height: 34px;
 }
